@@ -9,7 +9,7 @@ begin
     gem.summary = "Ruby interface to the VMware vSphere API"
     #gem.description = ""
     gem.email = "rlane@vmware.com"
-    gem.homepage = "https://github.com/vmware/rbvmomi"
+    gem.homepage = "https://github.com/threattrack/rbvmomi"
     gem.authors = ["Rich Lane", "Christian Dickmann"]
     gem.add_dependency 'nokogiri', '>= 1.4.1'
     gem.add_dependency 'builder'
