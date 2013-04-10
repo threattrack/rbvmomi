@@ -80,6 +80,7 @@ Gem::Specification.new do |s|
     "lib/rbvmomi/vim/ServiceInstance.rb",
     "lib/rbvmomi/vim/Task.rb",
     "lib/rbvmomi/vim/VirtualMachine.rb",
+    "rbvmomi.gemspec",
     "test/test_deserialization.rb",
     "test/test_emit_request.rb",
     "test/test_exceptions.rb",
