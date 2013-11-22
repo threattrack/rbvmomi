@@ -13,9 +13,12 @@ class RbVmomi::VIM::ManagedObject
       :objectSet => [{ :obj => self }],
     }, :partialUpdates => false
     ver = ''
+    counter = 3
     loop do
+      sleep counter
       result = _connection.propertyCollector.WaitForUpdates(:version => ver)
       ver = result.version
+      counter += 2
       if x = b.call
         return x
       end
